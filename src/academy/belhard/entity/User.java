@@ -11,11 +11,10 @@ public class User extends Person{
             this.password = password;
         }
 
-    public void getFullInfo(){
+    public String getFullInfo(){
 
-        System.out.println("Имя:" + "firstName" + " lastName");
-        System.out.println("Email: "+ "email");
-        //return "email: "+ email;
+        return super.getFullName() + "\n" + "Email: "+ email;
+
     }
 
     public void isPasswordCorrect(String password1){
