@@ -11,10 +11,10 @@ public class User extends Person{
             this.password = password;
         }
 
-    public String getFullName(){
+    public String getFullInfo(){
         @Override
-        public String getFulltName() {
-            return super.getFulltName();
+        public String getFullName() {
+            return super.getFullName();
         }
         return "email: "+ email;
     }
