@@ -1,12 +1,14 @@
 package academy.belhard;
 
 import academy.belhard.entity.Person;
+import academy.belhard.entity.User;
 
 public class Main {
 
     public static void main(String[] args) {
-        Person person1 = new Person();
-        System.out.println(person1.getFulltName());
+        User user1 = new User("Tom", "Korn", "1234534@mail.ru");
+        System.out.println(user1.getFulltName());
+
 
     }
 }

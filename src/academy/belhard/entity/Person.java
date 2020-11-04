@@ -10,8 +10,13 @@ public class Person {
         this.lastName = lastName;
     }
 
+public void printInfo(){
+    System.out.println("Имя: " + firstName);
+    System.out.println("Фамилия: " + lastName);
+}
+
     public String getFulltName() {
-        return "firstName" + " lastName";
+        return "Имя:" + "firstName" + " lastName";
     }
 
 
