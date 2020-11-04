@@ -6,20 +6,19 @@ public class User extends Person{
 
 
     public User(String firstName, String lastName, String email, String password) {
-            super(firstName, lastName);
+            super (firstName, lastName);
             this.email = email;
             this.password = password;
         }
 
-    public String getFullInfo(){
-        @Override
-        public String getFullName() {
-            return super.getFullName();
-        }
-        return "email: "+ email;
+    public void getFullInfo(){
+
+        System.out.println("Имя:" + "firstName" + " lastName");
+        System.out.println("Email: "+ "email");
+        //return "email: "+ email;
     }
 
-    public boolean isPasswordCorrect(String password1){
+    public void isPasswordCorrect(String password1){
         System.out.println(password.equals(password1));
     }
 
